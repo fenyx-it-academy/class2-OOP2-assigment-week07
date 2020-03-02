@@ -1,4 +1,4 @@
-# class2-OOP2-assigment-week06
+# class2-OOP2-assigment-week07
 
 - Bir savaş oyunu yazılacak. Bu oyunda iki askeri birlik birbiri ile savaşacak.
 - Birlikler; Bir albay(Colonel), yüzbaşılar(Captain) ve erlerden(Private) oluşacak.
