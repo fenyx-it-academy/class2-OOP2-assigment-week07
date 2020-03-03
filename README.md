@@ -51,13 +51,16 @@ savunma gücü azalır.
 toplam 10 adet mevzi olsun(5 tanesi bir birliğe, diğer 5 tanesi diğer birliğe ait
 olacak). Albay bölükleri mevzilere yerleştirecek ve savaşa bulundukları
 mevzilerden başlayacaklar.)
+
+-Oyunda Bİr Hamle:
+- Hamle sırası gelen oyuncu albayı raporları inceler, bu raporlar doğrultusunda bir bölük komutanına saldırı yapacağı mevzi için emir verir veya yeni bir bölük kurar yada savunma amaçlı mevzi değiştirir. Bir bölüğe saldırı emri verilmiş ise bölük komutanı kaç mermi ile saldırı yapılacağına karar verir ve saldırı emrini aldıkları mevziye saldırırlar. Eğer albay yeni bir birlik kurarsa bu birliği mevziye yerleştirir ve hamle sırası geçmiş olur.  Ama mevzi değiştirme hamlesini seçerse sadece bu hamleyi yapar ve hamle sırası geçmiş olur
 KOD:
 - Bu oyun için üç class olacak(Private, Captain, Colonel ).
-- Captain ve Colonel Private classının alt classı olacak
-- Tüm sınıflardaki ilgili attribute ve method isimeri aynı olacak(overriding
-yapılacak)
-- getattr,issubclass, isinstance, setattr gibi yöntemlerini araştırıp kodunuz için
-uygun olanlarını kullanınız.
+- Captain ve  Colonel Private classının alt classı olacak
+- Tüm sınıflardaki ilgili attribute ve method isimeri aynı olacak(overridingyapılacak)
+-getattr,issubclass, isinstance, setattr gibi  yöntemlerini araştırıp kodunuz içinuygun olanlarını kullanınız.
+- Savaş hamlelerini sleeptime modulu ile biraz yavaşlatabilir ve mermi veya atılma bomba atılma sahnelerini görselleştirebilirsiniz.
+-Yazdığınız kodu iki oyuncunun oynayabilieceği veya bilgisayara karşı oynanan bir oyuna dönüştürünüz
 - Tüm methodları en az bir defa uygulayacak şekilde kodunuzu oluşturunuz.:
 
 !!Yazdığınız kodu iki oyuncunun oynayabilieceği veya bilgisayara karşı bir oyuna
